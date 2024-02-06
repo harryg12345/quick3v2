@@ -1,0 +1,43 @@
+body{
+    background-color:rgb(193, 177, 28);
+}
+h1{
+    color: rgb(89, 96, 90);
+    background-color: rgb(203, 72, 42);
+    margin: 0;
+    padding: 10px;
+}
+#show_sketch{
+    float: right;
+}
+@keyframes change{
+    from{box-shadow: 1px 1px 38px rgb(168, 87, 6);}
+    to{box-shadow: 1px 1px 38px rgb(200, 32, 46);}
+}
+canvas{
+    border:5px solid white ;
+    border-radius: 20px;
+    animation-name: change;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+}
+p{
+    padding-top: 10px;
+    font-size: 25px;
+}
+#score{
+    float: left;
+    font-size: 25px;
+    margin-left: 20px;
+}
+#timer{
+    float: right;
+    font-size: 25px;
+    margin-right: 20px;
+
+}
+
+
+
+
